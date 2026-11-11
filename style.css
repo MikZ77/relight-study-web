@@ -3,14 +3,3 @@
 [hidden]{display:none!important}
 
 .question-choice{border:1px solid #354758;border-radius:12px;padding:18px;margin:18px 0}.question-choice legend{color:#dce7f0;line-height:1.6;padding:0 8px}.choice-row{display:grid;grid-template-columns:repeat(5,minmax(60px,1fr));gap:10px}.choice-row button{background:#243346;color:#dce7f0}.choice-row button.selected{background:#9ce4ca;color:#08251c;border-color:#c6ffed}.option-label{padding:16px;font-weight:600;color:#dce7f0}
-
-/* Large comparison cards: ratings always remain in document flow below media. */
-#study .options{grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;gap:20px;padding-bottom:12px}
-#study .option{min-width:0}
-#study .option video{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}
-#study .option-label{position:static;padding:12px 16px}
-#study #groupQuestions{position:static;clear:both;margin-top:24px}
-#study .question-choice{position:static;background:#141d28}
-#study .references video{max-height:360px}
-#study .references img{height:280px}
-@media(max-width:800px){#study .options{grid-template-columns:minmax(0,1fr)}#study .references{grid-template-columns:1fr}}
